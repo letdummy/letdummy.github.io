@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L200214197_Agus Ardiansyah Nh</title>
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/71609913?v=4">
+    <script src="https://kit.fontawesome.com/0e24c41dd4.js"></script>
+</head>
+
+<!-- so, I use css first to style my html file, then I copy it and put it here into style element in html -->
+<style>
+    * {
+        font-family: 'Poppins', sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    #top{
+        position: sticky;
+        z-index: 10;
+        top: 90%;
+        left: 95%;
+        color: #8a8a8a;
+    }
+
+    body{
+        background-color: #cecece;
+    }
+
+    body div{
+        padding: 10px;
+    }
+
+    header{
+        display: flex;
+        padding-left: 20px;
+        padding-right: 30px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header ul{
+        display: flex;
+    }
+
+    header ul li{
+        padding: 20px;
+        margin-left: 30px;
+        list-style: none;
+        text-transform: uppercase;
+    }
+
+    header ul li a{
+        text-decoration: none;
+        color: #000;
+    }
+    
+    header ul li:hover, .active{
+        background: #8a8a8a;
+        border-radius: 20px;
+        transition: .5s ease-in-out;
+    }
+
+
+    #foto{
+        border-radius: 500px;
+        height: 170px;
+    }
+
+    #first__div{
+        display: flex;
+        align-items: center;
+
+    }
+
+    #first__div p{
+        padding-top: 0px;
+        margin-top: 0px;
+        padding: 50px;;
+        font-size: 1.2rem;
+    }
+
+    #edu__list{
+        display: flex;
+        font-size: 1.3rem;
+        padding: 10px;
+        left: 30px;
+    }
+    
+    #edu__year{
+        list-style: none;
+    }
+
+    #edu__list li{
+        padding: 10px;
+        text-transform: uppercase;
+    }
+
+    #second__div{
+        position: relative;
+        padding: 20px;
+    }
+
+    #third__div{
+        padding: 20px;
+    }
+
+    #third__div ul{
+        display: flex;
+    }
+    
+    #third__div ul li{
+        padding: 10px;
+        margin-left: 10px;
+        list-style: none;
+    }
+
+    #third__div ul li:hover{
+        background: #8a8a8a;
+        border-radius: 10px;
+        transition: .5s ease-in-out;
+    }
+    
+    #third__div ul li a{
+        text-decoration: none;
+        color: #000;
+
+    }
+    
+</style>
+
+<body>
+    <header>
+        <h1 class="judul">
+            Assalamualaikum, Hello 
+        </h1>
+
+        <ul>
+            <li class="active"><a href="#">Who Am I?</a></li>
+            <li><a href="#second__div">Educations</a></li>
+            <li><a href="#third__div">More Info</a></li>
+            <li><a href="#fourth__div">Closure</a></li>
+        </ul>
+    </header>
+    
+    <!--
+        I completely use this icon for free from fontawesome.com
+        all you need to do is just sign up and you are good to go
+    -->
+    <a href="#">
+        <i id="top" class="fas fa-arrow-alt-circle-up fa-3x"></i>
+    </a>
+
+    <hr>
+
+    <!---  This is a first div element to show my Biography, and also I added an a element that linked to my github account  -->
+    
+    <!---  To check another div, you can simply minimize below div, I will give you mark for every div  -->
+
+    <div id="first__div">
+        <div>
+
+            <h1>
+                Who Am I ?
+            </h1>
+
+            <div  id="first__div">
+
+                <a href="https://github.com/letdummy" target="_blank">
+                    <img id="foto" src="foto.png" title="Agus Ardiansyah Nh's GitHub Profile">
+                </a>
+
+                <p>
+                    My name is <strong title="Strong elements"><mark>Agus Ardiansyah Nh</mark></strong>, you can call me Agus.<br> 
+                    I am 19, and now I am study <mark>Information Technology</mark> <br>
+                    at <u> Universitas Muhammadiyah Surakarta</u>.<br><br>
+                    
+                    Glad to see you <br> and also, don't forget to check the picture :)
+                </p>
+
+            </div>
+
+        </div>
+
+        <div>
+
+            <h1>Detail Information</h1>
+
+            <table border="1" cellpadding="10">
+            <tr>
+                <th bgcolor="#8a8a8a">Name</th>
+                <td bgcolor="#afafaf">Agus Ardiansyah Nh</td>
+                <td bgcolor="#afafaf">a.k.a. Agus</td>
+            </tr>
+
+            <tr>
+                <th bgcolor="#8a8a8a">NIM</th>
+                <td bgcolor="#afafaf" colspan="2">L200214197</td>
+            </tr>
+
+            <tr>
+                <th bgcolor="#8a8a8a">Born</th>
+                <td bgcolor="#afafaf" colspan="2">Sragen, August 4<sup>th</sup>, 2002</td>
+            </tr>
+
+            <tr>
+                <th bgcolor="#8a8a8a">Address</th>
+                <td bgcolor="#afafaf" colspan="2">Barong RT05, Pendem, Sumberlawang, Sragen, Center Java</td>
+            </tr>
+            </table>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!--
+        This is my second div
+        this div contain my academic background, school's information website included
+    -->
+    <div id="second__div">
+        <h1>
+            Educational Background
+        </h1>
+        <div id="edu__list">
+            <ul>
+                <li title="Elementary School"><a href="https://dapo.kemdikbud.go.id/sekolah/0D4D99518C7D185438E9" target="_blank">SD N Pendem 2</a></li>
+                <li title="Junior High School"><a href="https://dapo.kemdikbud.go.id/sekolah/25EBCF230F87BCFEE663" target="_blank">SMP N 1 Gemolong</a></li>
+                <li title="High School"><a href="https://dapo.kemdikbud.go.id/sekolah/816F20BDA088EF263FB4" target="_blank">SMA N 1 Gemolong</a></li>
+                <li title="University"><a href="https://ums.ac.id" target="_blank">Universitas Muhammadiyah Surakarta</a></li>
+            </ul>
+
+            <ul id="edu__year">
+                <li>(2008 - 2014)</li>
+                <li>(2014 - 2017)</li>
+                <li>(2017 - 2020)</li>
+                <li>(2021 - Now)</li>
+            </ul>
+
+
+        </div>
+    </div>
+
+    <hr>
+
+    <!--
+        This is my third div
+        this div using inframe elements that include my achivement, hobbies and a video that I ever edited before
+        ahh and I added audio element here, this div is my favourite part so far 
+    -->
+
+    <div id="third__div">
+
+        <h1>
+            More Information
+        </h1>
+        <p>What You Wanna Know About Me ?</p>
+        <ul>
+            <li><a href="achievements.html" target="iframe">Achievements</a></li>
+            <li><a href="hobbies.html" target="iframe">Hobbies</a></li>
+            <li><a href="https://www.youtube.com/embed/ymTzH0myOlY" target="iframe"> Video by Me</a></li>
+        </ul>
+        <iframe name="iframe" src = "" width = "750px" height = "500px">
+            Sorry your browser does not support inline frames.
+         </iframe>
+        
+         
+         <div>
+             <audio src="yoasobi.mp3" type="audio/mpeg" controls autoplay loop></audio>
+             <p>if you can't play this music, try to download the asset from <a target="_blank" href="https://github.com/letdummy/biography/blob/master/yoasobi.mp3">here</a>
+             <br>
+             then add it into one folder with the html file
+             </p>
+             
+         </div>
+    </div>
+
+    <hr>
+
+    <!--
+        This is the last div, nothing special here, just a simple closure
+    -->
+    <div id="fourth__div">
+        <h1>Closure</h1>
+        <p>
+            I guarantee I am not Copy-Paste another person's source code (youtube and/or friends) and more than 95% I code this by myself :') <br>
+            except for 'go to Top' Icon <a href="https://fontawesome.com" target="_blank">(fontawesome.com)</a> and the rest, I reviewed material from OpenLearning <br>
+            please visit my <a href="https://www.figma.com/file/Su51W0az0aD6Ha4uF3LnhB/Biography" target="_blank">Figma</a> for my design Information
+        </p>
+    </div>
+</body>
+
+
+
+</html>
